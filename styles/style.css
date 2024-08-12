@@ -178,3 +178,232 @@
   }
   /* banner end */
   /* Header , Nav & Banner end */
+  main {
+    background-color: #000000;
+  }
+  /* habit start */
+  .habit {
+    background-color: #000000;
+    width: 80%;
+    margin: 0rem auto;
+    padding: 5rem 0;
+  }
+  .habit-img-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  .habit-img-box .img-card {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .habit-img-box .img-card h3 {
+    color: #ffffff;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  .habit-img-box .img-card p {
+    color: #ffffff;
+    opacity: 50%;
+    margin-top: 0.5rem;
+  }
+  .habit-img-box .img-card p > br {
+    display: none;
+  }
+  .habit-img-box .img-card img {
+    border-radius: 360px;
+    border: 4px solid #222222;
+    width: 90%;
+  }
+  /* habit end */
+  /* run start */
+  .run {
+    width: 80%;
+    margin: 0rem auto;
+    padding: 5rem 0;
+  }
+  .run-box {
+    background-color: #222222;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    gap: 2rem;
+  }
+  .run-box .run-txt-box {
+    max-width: 480px;
+  }
+  .run-box .run-img-box img {
+    border-radius: 18px;
+    max-width: 366px;
+    height: 312px;
+  }
+  .run-box .run-txt-box h1 {
+    color: #ffffff;
+    font-size: 48px;
+  }
+  .run-box .run-txt-box p {
+    color: #ffffff;
+    opacity: 50%;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+  .run-box .run-txt-box .btn1 {
+    background-color: #e6533c;
+    border: none;
+    border-radius: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 16px 65px;
+  }
+  
+  /* run end */
+  
+  /* bmi calculator start */
+  .bmi .bmi-txt-box {
+    background-color: #000000;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5.5rem 0;
+  }
+  .bmi .bmi-txt-box h1 {
+    text-align: left;
+  }
+  .bmi .bmi-txt-box p {
+    text-align: left;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+  
+  .bmi-calculator-parent-div {
+    background-color: #222222;
+  }
+  .bmi .bmi-calculator-box {
+    background-color: #222222;
+    padding: 4rem 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+  }
+  .bmi .bmi-calculator-box > div {
+    width: 50%;
+  }
+  .table-box h1 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .table-box table {
+    border-collapse: collapse;
+  }
+  .table-box table thead th {
+    color: #ffffff;
+  }
+  .table-box table th {
+    padding: 16px 22px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .table-box table td {
+    padding: 14px 18px;
+    color: #727272;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .calculator-box {
+    width: 100%;
+  }
+  .calculator-box h1 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .calculator-box p {
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    margin-top: 0.4rem;
+  }
+  .input-box .row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 34px;
+  }
+  .input-box .row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 12px;
+  }
+  .input-box input,
+  select {
+    border-radius: 8px;
+    border: none;
+    background-color: #383838;
+    padding: 12px 0px 12px 12px;
+    color: #727272;
+    font-weight: 600;
+  }
+  .input-box button {
+    margin-top: 34px;
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #e6533c;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  /* bmi calculator end */
+  
+  /* our team start */
+  .team {
+    padding: 3rem 0;
+  }
+  .team p {
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+  .team-box {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background-color: #191919;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4rem;
+  }
+  .team-card {
+    position: relative;
+  }
+  .team-card img {
+    width: 100%;
+    height: 280px;
+    border-radius: 18px;
+    opacity: 80%;
+  }
+  .team-card h3 {
+    color: #ffffff;
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+  }
+  .team-card p {
+    color: #ffffff;
+    opacity: 60%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  /* our team end */
+  /* Packages section start */
+
+  /* Packages section end */
