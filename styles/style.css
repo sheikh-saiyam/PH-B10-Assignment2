@@ -482,3 +482,56 @@
   }
   
   /* Packages section end */
+  /* footer start */
+footer {
+    background-color: #191919;
+  }
+  .footer-txt-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .footer-txt-box .box-1 {
+    max-width: 460px;
+  }
+  .footer-txt-box .box-1 h1 {
+    font-size: 70px;
+    color: #e6533c;
+    font-style: italic;
+  }
+  .footer-txt-box .box-1 p {
+    text-align: left;
+    margin-top: 1.4rem;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+  .footer-txt-box .box-2 h3 {
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .footer-txt-box .box-2 > div {
+    margin-top: 40px;
+  }
+  .footer-txt-box .box-2 > div > li {
+    margin-top: 1rem;
+    list-style: none;
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  footer hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #7b7b7b42;
+  }
+  footer .footer-p {
+    padding: 2rem;
+    font-size: 18px;
+  }
+  /* footer end */
+  
