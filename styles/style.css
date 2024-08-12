@@ -405,5 +405,80 @@
   }
   /* our team end */
   /* Packages section start */
-
+  .Packages {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    line-height: 3rem;
+    color: #ffffff;
+  }
+  .main-txt-box {
+    text-align: center;
+  }
+  .main-txt-box h4 {
+    color: #e6533c;
+  }
+  .main-txt-box .billed-box {
+    background-color:#191919 ;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 12px;
+  }
+  .main-txt-box .billed-box h3 {
+    color: #ffffff;
+    background-color: #e6533c;
+    border-radius: 12px;
+  }
+  .Packages-box {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .Packages-card {
+    background-color:#191919 ;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+  }
+  .Packages-card h5 {
+    color: #e6533c;
+  }
+  .Packages-card h1 {
+    font-size: 36px;
+  }
+  .Packages-card p {
+    color: #ffffff;
+    opacity: 60%;
+  }
+  .Packages-card  li {
+    list-style:none;
+  }
+  .Packages-card .Packages-btn {
+    background-color: #e6533c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 3rem;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  
+  #pack-card {
+    background-color: #e6533c;
+  }
+  #pack-card h5 {
+    color: #ffffff;
+  }
+  #pack-card > .Packages-btn {
+    background-color: #191919;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 3rem;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  
   /* Packages section end */
